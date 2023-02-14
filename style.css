@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  background-color: orange;
+}
+
+main {
+  margin: 0 5%;
+  padding-bottom: 2rem; /* Para no tapar el footer al achicar pantalla */
+}
+
+section {
+  border: 3px solid darkslategrey;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: lightseagreen;
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+nav {
+  background-color: lightgray;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: lightgray;
+}
+
+.text-center {
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0;
+  border: 2px solid black;
+}
