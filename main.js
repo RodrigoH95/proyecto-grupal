@@ -1,12 +1,14 @@
 const caja = document.getElementById("caja");
-const campeones = ["teemo", "varus", "rengar", "jinx", "blitzcrank", "kennen", "aatrox", "ornn", "alistar"];
+
+const campeones = ["teemo", "varus", "rengar", "jinx", "blitzcrank", "kennen", "aatrox", "ornn", "alistar", "veigar", "sivir", "zed", "twistedfate", "ezreal"];
+
 
 function crearTarjeta(imagen) {
   const pareja = [];
   const tarjeta = document.createElement("div");
   tarjeta.classList.add("tarjeta");
   tarjeta.id = imagen;
-  tarjeta.style.backgroundImage = `url("./img/${imagen}.jpg")`
+  tarjeta.style.backgroundImage = `url("/img/${imagen}.jpg")`
   const tarjeta2 = tarjeta.cloneNode("true");
 
   pareja.push(tarjeta, tarjeta2);
