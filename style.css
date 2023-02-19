@@ -56,7 +56,7 @@ footer {
 }
 
 .tarjeta {
-  filter: brightness(35%);
+  filter: brightness(0);
   height: 250px;
   width: 250px;
   background-size: cover;
