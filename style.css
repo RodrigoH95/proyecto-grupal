@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   position: relative;
   min-height: 100vh;
@@ -70,4 +74,15 @@ footer {
   flex-wrap: wrap;
   flex-shrink: 0;
   gap: 10px;
+}
+
+.boton-inicio {
+  color: rgb(250, 26, 26);
+  background-color: rgb(151, 136, 136);
+}
+
+.boton-posicion{
+  display: flex;
+  align-items: center;
+  height: 700px;
 }

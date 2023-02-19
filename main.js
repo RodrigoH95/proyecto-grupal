@@ -8,7 +8,7 @@ function crearTarjeta(imagen) {
   const tarjeta = document.createElement("div");
   tarjeta.classList.add("tarjeta");
   tarjeta.id = imagen;
-  tarjeta.style.backgroundImage = `url("./img/${imagen}.jpg")`
+  tarjeta.style.backgroundImage = `url("/img/${imagen}.jpg")`
   const tarjeta2 = tarjeta.cloneNode("true");
 
   pareja.push(tarjeta, tarjeta2);
