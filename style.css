@@ -16,7 +16,8 @@ h1 {
 
 main {
   margin: 0 5%;
-  padding-bottom: 2rem; /* Para no tapar el footer al achicar pantalla */
+  padding-bottom: 2rem;
+  /* Para no tapar el footer al achicar pantalla */
 }
 
 section {
@@ -46,4 +47,27 @@ footer {
   text-align: center;
   padding: 0.3rem 0;
   border: 2px solid black;
+}
+
+.tarjeta {
+  filter: brightness(0);
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 10%;
+  box-shadow: 2px 2px 1px red;
+}
+
+.activa {
+  filter: brightness(1);
+}
+
+#caja {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 10px;
 }
