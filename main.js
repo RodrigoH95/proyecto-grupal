@@ -1,7 +1,7 @@
 console.log("Funcionando");
 const caja = document.getElementById("caja");
 
-const campeones = ["teemo", "varus", "rengar", "jinx"]
+const campeones = ["teemo", "varus", "rengar", "jinx", "veigar", "sivir", "zed", "twistedfate", "ezreal"]
 
 function crearTarjeta(imagen) {
   const pareja = [];

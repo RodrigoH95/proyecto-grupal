@@ -11,6 +11,7 @@ a {
 body {
   position: relative;
   min-height: 100vh;
+  background-image: url(/img/lolsito-fondo.jpg);
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
 main {
   margin: 0 5%;
   padding-bottom: 2rem;
+
   /* Para no tapar el footer al achicar pantalla */
 }
 
