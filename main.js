@@ -1,7 +1,5 @@
-console.log("Funcionando");
 const caja = document.getElementById("caja");
-
-const campeones = ["teemo", "varus", "rengar", "jinx"]
+const campeones = ["teemo", "varus", "rengar", "jinx", "blitzcrank", "kennen", "aatrox", "ornn", "alistar"];
 
 function crearTarjeta(imagen) {
   const pareja = [];
@@ -12,15 +10,13 @@ function crearTarjeta(imagen) {
   const tarjeta2 = tarjeta.cloneNode("true");
 
   pareja.push(tarjeta, tarjeta2);
-
-  for (carta of pareja) {
-    carta.onclick = () => {
-      if (carta.classList.contains("activa")) return;
-      console.log(carta.id)
+  pareja.forEach(carta => carta.onclick = () => {
+    if (carta.classList.contains("activa")) return;
       carta.classList.add("activa");
-    };
-  }
+  });
 
+
+  // Guardar las tarjetas en una lista global para poder mezclarlas y que no salgan juntas
   caja.appendChild(tarjeta);
   caja.appendChild(tarjeta2);
 }

@@ -50,8 +50,7 @@ footer {
 }
 
 .tarjeta {
-  filter: brightness(0);
-  background-color: red;
+  filter: brightness(35%);
   height: 250px;
   width: 250px;
   background-size: cover;
@@ -67,6 +66,7 @@ footer {
 
 #caja {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-shrink: 0;
   gap: 10px;
